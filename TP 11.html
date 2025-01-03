@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tableau aléatoire</title>
+    <link rel="stylesheet" href="D:\Exposé bootstrap\bootstrap-5.0.2-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="D:\Exposé bootstrap\css\TP 11.css">
+</head>
+<body>
+        <div class="container-sm">       
+            <form>
+                <div class="row  m-4">     
+                    <div class="col-md-4">
+                        <label for="dimension" class="form-label">Dimension</label>
+                        <input type="text" class="form-control" id="dim_tab">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="valeurmin" class="form-label">La valeur minimale</label>
+                        <input type="text" class="form-control" id="borne_inf">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="valeurmax" class="form-label">La valeur maximale</label>
+                        <input type="text" class="form-control" id="borne_sup">
+                    </div> 
+                    
+                </div>
+                   
+                    <div class="col-md-12 ms-2 "> 
+                       <div class="row m-4">    
+                        <input type="button" class="btn btn-primary btn-block" onclick="Afficher()" value="Générez un tableau"/>
+                    </div>
+                          <div class="row m-4" id="afficherTableau"> </div>   
+                    </div>
+                    <div class="row m-4" id="afficherTableau1"> </div>   
+            </form>
+     </div>
+
+     <script src="D:\Exposé bootstrap\bootstrap-5.0.2-dist\js\bootstrap.bundle.min.js"></script>
+     <script src="D:\Exposé bootstrap\JS\TP 11.js"></script>
+</body>
+</html>
