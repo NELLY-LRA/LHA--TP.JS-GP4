@@ -1,0 +1,61 @@
+body {
+    font-family:'Times New Roman', Times, serif
+   }
+   
+   #resultats {
+    margin-top: 20px;
+   }
+   
+   #t-inf, #t-sup {
+    padding: 0;
+    margin: 0;
+   }
+   
+   #t-inf li, #t-sup li {
+    margin-bottom: 10px;
+    
+    
+   }
+
+   h1{ 
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 27px;
+   }
+
+   #btn-trier{ 
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 210px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 30px;
+   
+   }
+   
+   #t-inf li{ 
+    color: brown;
+   }
+
+   #t-sup li{ 
+    color: blue;
+   }
+
+   .P{ 
+    color: brown;
+    text-decoration: underline;
+   }
+
+   .D{ 
+    color: blue;
+    text-decoration: underline;
+   }
+
+
+
+
+   
